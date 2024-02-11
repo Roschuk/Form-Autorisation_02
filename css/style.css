@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  background: url("../img/fontwo.jpg") center/auto no-repeat;
+  height: 100%;
+  overflow: hidden;
+}
+
+.login {
+  width: 700px;
+  margin: 130px auto;
+  border: 3px solid #000;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
+  height: 400px;
+}
+
+.login__body {
+  margin: 50px 0 0px 0;
+}
+
+.login__title {
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+.login__title p {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: white;
+  font-family: "Tektur", cursive;
+  font-weight: 600;
+  letter-spacing: 2.58px;
+}
+
+.form__info {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  margin: 0 auto;
+}
+.form__info .form__gmail, .form__info .form__password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.form__info .form__gmail .gg-profile {
+  color: white;
+  margin: 0 0 3px 0;
+}
+.form__info .form__gmail p {
+  color: white;
+  font-family: "Tektur", cursive;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+.form__info .form__gmail .gmail {
+  height: 30px;
+  width: 100%;
+  background: transparent;
+  border-bottom: white solid 1px;
+  color: white;
+  font-size: 15px;
+  font-family: "Tektur", cursive;
+}
+.form__info .form__gmail .gmail:focus {
+  transition: 0.5s;
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+.form__info .form__password .gg-profile {
+  color: white;
+  margin: 0 0 3px 0;
+}
+.form__info .form__password p {
+  color: white;
+  font-family: "Tektur", cursive;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+.form__info .form__password .password {
+  height: 30px;
+  width: 100%;
+  background: transparent;
+  border-bottom: white solid 1px;
+  color: white;
+  font-family: "Tektur", cursive;
+}
+.form__info .form__password .password:focus {
+  transition: 0.5s;
+  border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.form__button {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.form__button .button {
+  width: 180px;
+  height: 35px;
+  background: none;
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: white;
+  font-family: "Tektur", cursive;
+  font-size: 17px;
+}
+.form__button .button:hover {
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.504);
+}/*# sourceMappingURL=style.css.map */

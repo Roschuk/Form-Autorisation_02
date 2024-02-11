@@ -1,0 +1,122 @@
+@import 'nullstyle.scss';
+
+body {
+     background: url("../img/fontwo.jpg") center/auto no-repeat;    
+     height: 100%;
+     overflow: hidden;
+}
+.login {
+     width: 700px;
+     margin: 130px auto;
+     border: 3px solid #000;
+     border-radius: 20px;
+     backdrop-filter: blur(2.5px);
+     height: 400px;
+}
+.login__body {
+     margin: 50px 0 0px 0;
+}
+.login__title {
+          text-align: center;
+          margin: 0 0 50px 0;
+     p {
+          text-transform: uppercase;
+          font-size: 30px;
+          color: white;
+          font-family: 'Tektur', cursive;
+          font-weight: 600;
+          letter-spacing: 2.58px;
+     }
+}
+.form__info {
+     display: flex;
+     justify-content: space-around;
+     width: 600px;
+     margin: 0 auto;
+
+     .form__gmail, .form__password {
+          display: flex;
+          flex-direction: column;
+          align-items: center;  
+          width: 40%;
+     }
+     
+     .form__gmail {
+          .gg-profile {
+               color: white;
+               margin: 0 0 3px 0;
+          }
+          p {
+               color: white;
+               font-family: 'Tektur', cursive;
+               margin: 0 0 10px 0;
+               font-size: 16px;
+          }
+          .gmail {
+               height: 30px;
+               width: 100%;
+               background: transparent;
+               border-bottom: white solid 1px;
+               color: white;
+               font-size: 15px;
+               font-family: 'Tektur', cursive;
+
+               &:focus {
+                    transition: 0.5s;
+                    border-bottom: 3px solid rgb(0, 0, 0);
+               }
+          }
+     }
+
+     .form__password {
+          .gg-profile {
+               color: white;
+               margin: 0 0 3px 0;
+          }
+          p {
+               color: white;
+               font-family: 'Tektur', cursive;
+               margin: 0 0 10px 0;
+               font-size: 16px;
+          }
+          .password {
+               height: 30px;
+               width: 100%;
+               background: transparent;
+               border-bottom: white solid 1px;
+               color: white;
+               font-family: 'Tektur', cursive;  
+               
+               &:focus {
+                    transition: 0.5s;
+                    border-bottom: 3px solid rgb(0, 0, 0);
+               }  
+          }
+     }
+}
+.form__button {
+     margin-top: 80px;
+     display: flex;
+     justify-content: center;
+
+     .button {
+          width: 180px;
+          height: 35px;
+          background: none;
+          border: 2px solid #000;
+          border-radius: 5px; 
+          color: white;
+          font-family: 'Tektur', cursive;
+          font-size: 17px;
+
+          &:hover {
+               transition: 0.5s;
+               background: rgba(0, 0, 0, 0.504);
+          }
+     }
+}
+
+
+
+
+
